@@ -1,0 +1,58 @@
+body{
+  background-color: lightyellow;
+}
+.header {
+  height: 300px;
+  width: auto;
+  background-color: yellow;
+}
+.topimage{
+  height: 80%;
+/*  width: 100%; */
+  background: url("img/topimage.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: scroll;
+  url("http://www.google.co.jp")
+}
+
+.footer{
+  height: 200px;
+  background: black;
+  color: #fff;
+  clear: both;
+}
+
+.main-contents, .left-navi, .right-navi {
+  height: 400px;
+}
+.main-contents {
+  background-color: red;
+  color: #fff;
+  float: left;
+  width: 80%;
+}
+.left-navi {
+  background-color: blue;
+  color: #fff;
+  width: 20%;
+  float: right;
+}
+.right-navi {
+  background-color: green;
+  color: #fff;
+  float: right;
+  width: 20%;
+}
+.main{
+  width: 80%;
+  float: right;
+}
+ 
+@media screen and (max-width: 600px){
+  .main, .left-navi,.main-contents, .right-navi{
+  width: 100%;
+  }
+}
